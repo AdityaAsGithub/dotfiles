@@ -17,14 +17,16 @@ __pycache__
 .DS_Store
 .electron-gyp
 .env
-.erlang-hist*
-.hawtjni/
+/.fig.dotfiles.bak/
+/.fig/history
+/.fig/fig.history
 .helm/**/*.tgz
 .idea*
 .idea/libraries/
 .idea/markdown* # Only if you have the Markdown Navigator plugin
 .idea/uiDesigner.xml
 .idea/workspace.xml # Critical to ignore (guaranteed to be different on every machine and changes frequently)
+/.kuberlr
 .minikube
 .node-gyp
 .node-stats/local-storage.json
@@ -99,7 +101,8 @@ __pycache__
 /.dmrc
 /.dropbox*
 /.dvdcss
-/.eclipse/**/cache
+/.eclipse/
+/eclipse-workspace/
 /.electron
 /.equo/
 /.erlang-history/
@@ -145,6 +148,7 @@ __pycache__
 /.ollama/
 /.oracle_jre_usage/*.timestamp
 /.org.eclipse*
+/.p2/
 /.p4tickets
 /.packer.d/
 /.parallel
@@ -162,6 +166,11 @@ __pycache__
 /.Skype
 /.sonarlint/
 /.ssh/known_hosts*
+/STM32CubeIDE/
+/STM32Cube/
+/.stm32cubemx/
+/.stmcufinder/
+/.stm32cubeide/
 /.sts4
 /.sts4-jandex
 /.subversion
@@ -196,6 +205,7 @@ __pycache__
 /.zsh/
 /*.key
 /app.retry
+/AnypointStudio/
 /Applications/
 /Applications\ (Parallels)
 /bin/
@@ -206,10 +216,12 @@ __pycache__
 /dev/
 /Documents/
 /Downloads/
+/eclipse/java-*/
 /go/pkg/
 /Google\ Drive
 /Google\ Drive\ File\ Stream
 /Library/
+/MATLAB-Drive/
 /mbox
 /Movies/
 /Music/

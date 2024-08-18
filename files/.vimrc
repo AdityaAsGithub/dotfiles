@@ -39,6 +39,7 @@ set bs=2
 
 set undofile
 set undodir=/tmp
+set autoindent
 
 set nobackup
 " https://en.parceljs.org/hmr.html#safe-write
@@ -65,10 +66,15 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=1
 
+nmap n nzz
+nmap N Nzz
+
 " All of your Plugins must be added before the following line
 filetype plugin indent on    " required
 
 let g:solarized_termcolors=256
+set noerrorbells
+set visualbell
 
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
